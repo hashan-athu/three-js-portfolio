@@ -61,7 +61,7 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
   return (
-    <section className="min-h-screen border-2 w-full flex flex-col relative">
+    <section className="min-h-screen w-full flex flex-col relative">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-2xl font-medium text-center text-white font-generalsans">
           Hi, I am Hashan <span className="waving-hand">👋</span>
@@ -100,7 +100,11 @@ const Hero = () => {
 
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <a href="#contact" className="w-fit">
-          <Button name="Let's Talk" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+          <Button
+            name="Let's Talk"
+            isBeam
+            containerClass="sm:w-fit w-full sm:min-w-96"
+          />
         </a>
       </div>
     </section>

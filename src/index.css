@@ -8,10 +8,6 @@
   scroll-behavior: smooth;
 }
 
-*, ::before, ::after{
-  border: none;
-}
-
 body {
   background: #010103;
   font-family: "General Sans", sans-serif;
