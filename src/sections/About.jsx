@@ -100,7 +100,13 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                 totam harum illo dolorem rem id ducimus consequatur.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="#contact" className="w-fit">
+                <Button
+                  name="Contact Me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>

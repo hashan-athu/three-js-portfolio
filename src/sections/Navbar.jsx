@@ -21,7 +21,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen((prevIsOpen) => !prevIsOpen);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-balck/90">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a
@@ -48,9 +48,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
+      <div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
         <nav className="p-5">
-        <NavItems />
+          <NavItems />
         </nav>
       </div>
     </header>
